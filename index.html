@@ -2,10 +2,161 @@
 <html>
     <head>
         <title>Victor's Portfolio</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        Hallo!
-    <h1>Hallo!</h1>
-    dev only
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand text-white" href="#">Victor Poleij</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about-me">Over mij</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="jumbotron header" id="home">
+            <img src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/20374763_1073488046120965_8198188505619095936_n.jpg?_nc_cat=108&_nc_ht=scontent-amt2-1.xx&oh=1fcb2b50611edbb8792f4cf1a4473341&oe=5D3BFDBC" class="hoofd">
+            <h1>Victor Poleij</h1>
+        </div>
+
+        <div class="container-fluid" id="about-me">
+
+            <div class="row">
+
+                <div class="col-12 mt-4">
+                    <div class="page-header mt-4">
+                        <h1>Over mij <small>Lees hier meer over mij</small></h1>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-4 offset-md-2">
+
+                    <div class="card">
+                        <img class="card-img-top" src="http://cdn.desktopwallpapers4.me/wallpapers/beaches/1366x768/2/16018-beautiful-sunset-1366x768-beach-wallpaper.jpg" alt="Over mij">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Over mij</h5>
+                            <p class="card-text">
+                                Ik beheers de volgende talen:
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </p>
+                            <a href="#contact" class="btn btn-primary">Contact</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 mt-4">
+
+                    <div class="card">
+                        <img class="card-img-top" src="https://wallpaperplay.com/walls/full/2/9/7/164604.jpg" alt="Vaardigheden">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Vaardigheden</h5>
+                            <p class="card-text">
+                                Ik beheers de volgende talen:
+                                <ul class="list-group">
+                                    <li class="list-group-item text-center">HTML</li>
+                                    <li class="list-group-item text-center">CSS</li>
+                                    <li class="list-group-item text-center">Javascript</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 mt-4">
+
+                    <div class="card">
+                        <img class="card-img-top" src="https://cn.opendesktop.org/img/6/a/1/0/f23445e3c6d069065891ce85f9b6c10ec333.jpg" alt="Mijn projecten">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Mijn projecten</h5>
+                            <p class="card-text">
+                                Ik beheers de volgende talen:
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid" id="contact">
+
+            <div class="row">
+
+                <div class="col-12 mt-4">
+                    <div class="page-header mt-4">
+                        <h1>Contact <small>Neem contact met mij op</small></h1>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--<iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&height=600&hl=nl&q=Herman%20Costerstraat%20571+()&ie=UTF8&t=&z=19&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">                    </iframe>-->
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-6 mt-4 mb-4">
+
+                    <h3>Contactformulier</h3>
+
+                    <form action="#" method="POST">
+
+                        <label>Uw naam 2</label>
+                        <input type="text" class="form-control">
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                        <p>deze website is WEL gemaakt door victor!!!</p>
+                        <p class="h6">&copy door victor poleij</p>
+                    </div>
+                    </hr>
+                </div>
+            </div>
+        </section>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
